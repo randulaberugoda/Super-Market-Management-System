@@ -1,0 +1,56 @@
+/* Add your styles for the splash screen here */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #464447;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.splash-screen h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+
+}
+
+.splash-screen h2 {
+    font-size: 24px;
+    margin: 5%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 40px;
+}
+
+#loading-message {
+    font-size: 16px;
+    padding: 15px 25px;
+    background-color: rgb(240, 108, 134);
+    border-radius: 40px;
+    color: #f0f0f0;
+
+}
+
+img {
+    width: 128px;
+    height: 128px;
+    display: flex;
+}

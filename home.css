@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.header-left {
+    display: inline-flex;
+}
+
+.header-left h1 {
+    color: aqua;
+
+    text-shadow: 2px 2px 5px crimson;
+}
+
+.header-left img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.header-right p {
+    margin-left: 20px;
+
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+
+.main-block {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.main-block h2 {
+    margin-bottom: 3%;
+}
+
+.main-block:hover {
+    border: 5px solid aqua;
+    background: #333;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.main-block .block_img {
+    height: 200px;
+    width: 150px;
+}
+
+.btn {
+    display: inline-flexbox;
+    padding: 10px 30px;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 45%;
+    align-items: center;
+
+}
+
+.btn:hover {
+
+    background: crimson;
+
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+
+/* Responsive Design for Small Devices */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
